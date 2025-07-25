@@ -484,10 +484,14 @@
 
     /* seventh part  */
     .v0 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0px;
-        padding: 0px;
+
+        display: flex;
+        flex-direction: column;
+        margin: 0 120px;
+
+
+
+
     }
 
     .v2 {
@@ -507,7 +511,8 @@
     }
 
     .v4 {
-        width: 700px;
+
+        max-width: 400px;
         height: 201px;
 
     }
@@ -519,5 +524,9 @@
         font-size: 25px;
     }
 
+    .upset-width {
+        max-width: 100%;
+
+    }
 
 }
