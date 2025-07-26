@@ -385,22 +385,31 @@ pic {
 }
 
 .bgb123 {
-    border: 2px solid red;
-    width: 1440px;
+
+    max-width: 1440px;
     height: 533px;
-    margin: 0px;
-    padding: 0px;
-    background-image: url(./photo/news-letter-bg.png);
+
+
+
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 
 
 }
 
 .sectorx {
-    margin: 15% 0%;
+    /* margin: 15% 0%; */
+    position: absolute;
 
 }
 
 .d1 {
+
     /* display: flex; */
     padding: 0%;
     text-align: center;
